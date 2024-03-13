@@ -21,4 +21,10 @@ public class Ej11 : MonoBehaviour
         Debug.Log("Precio Unitario: $" + precioUnitario);
         Debug.Log("Total a Pagar: $" + totalPagar);
     }
+
+
+    void Update()
+    {
+
+    }
 }

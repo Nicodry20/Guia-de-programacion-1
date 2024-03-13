@@ -5,6 +5,7 @@ using UnityEngine;
 public class Ej10 : MonoBehaviour
 {
     public int horaActual = 10;
+
     void Start()
     {
         if (horaActual >= 10 && horaActual <= 18)
@@ -19,5 +20,11 @@ public class Ej10 : MonoBehaviour
         {
             Debug.Log("El estacionamiento está cerrado.");
         }
+    }
+
+// Update is called once per frame
+    void Update()
+    {
+
     }
 }

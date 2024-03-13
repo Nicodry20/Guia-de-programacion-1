@@ -19,4 +19,10 @@ public class Ej8 : MonoBehaviour
             Debug.Log("El día ingresado no es válido");
         }
     }
+
+// Update is called once per frame
+    void Update()
+    {
+        
+    }
 }
